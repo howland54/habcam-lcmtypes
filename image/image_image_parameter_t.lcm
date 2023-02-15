@@ -1,0 +1,8 @@
+package image;
+
+struct image_parameter_t {
+    string key;
+    string value;
+    int8_t cameraNumber;
+
+}
