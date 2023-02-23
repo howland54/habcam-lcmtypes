@@ -1,6 +1,6 @@
 package marine_sensor;
 
-struct ctd_t {
+struct MarineSensorCtd_t {
     int64_t  utime; // microseconds since 1970-01-01T00:00:00
     double   sea_water_electrical_conductivity; // Siemens/m
     double   sea_water_temperature; // degrees Celsius
